@@ -79,19 +79,23 @@ margin: 10px
 }
 #Carrie{
     grid-area: Carrie;
-    max-width:100%;
-    height:auto;
+    transform: scale(0.75,0.75);
+    margin: -25px;
+    margin-top: -75px;
 }
 #Gunslinger{
     grid-area: Gunslinger;
-    
+    margin: 10px;
 }
 #Eleven{
     grid-area: Eleven;
+    align-items: right;
+    margin: 10px;
     
 }
 #Joyland{
     grid-area: Joyland;
+    margin: 10px;
     
 }
 /* footer */
