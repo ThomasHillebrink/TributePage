@@ -40,11 +40,56 @@ header > h2 {
 .content{
     grid-area: main;
     background-color: #FBF5F5;
+    display: grid;
+    grid-auto-columns: 100px 3fr 100px;
+    grid-auto-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "title title title"
+    "timeline1 timeline1 Carrie"
+    "Gunslinger timeline2 timeline2"
+    "timeline3 timeline3 Eleven"
+    "Joyland timeline4 timeline4"
+    
 
 }
+.timelineTitle{
+    grid-area: title;
+    margin: 10px
+}
 body > div {
-
     margin: 0 auto;
+}
+.timeline1{
+grid-area: timeline1;
+margin: 10px
+}
+.timeline2{
+grid-area: timeline2;
+margin: 10px
+}
+.timeline3{
+grid-area: timeline3;
+margin: 10px
+}
+.timeline4{
+grid-area: timeline4;
+margin: 10px
+}
+#Carrie{
+    grid-area: Carrie;
+    object-fit: cover;
+}
+#Gunslinger{
+    grid-area: Gunslinger;
+    object-fit: cover;
+}
+#Eleven{
+    grid-area: Eleven;
+    object-fit: cover;
+}
+#Joyland{
+    grid-area: Joyland;
+    object-fit: cover;
 }
 /* footer */
 footer{
