@@ -50,6 +50,7 @@ header > h2 {
 /* Main text box*/
 .content{
     grid-area: main;
+    margin: 10px;
     font-family: 'Amiri', serif;
     background-color: #FBF5F5;
     display: grid;
@@ -94,23 +95,29 @@ margin: 10px
 grid-area: timeline4;
 margin: 10px
 }
-#Carrie{
-    grid-area: Carrie;
-    margin: 10px;
-}
 .c-img{
     max-width: 100%;
     max-height: 350px;
-
+    margin: 0px 10px 10px 10px ;
 }
+
+#Carrie{
+    grid-area: Carrie;
+    align-items: right;
+    margin: 10px;
+    margin: 0px 10px 10px 10px ;
+}
+
 #Gunslinger{
     grid-area: Gunslinger;
     margin: 10px;
+    margin: 0px 10px 10px 10px ;
 }
 #Eleven{
     grid-area: Eleven;
     align-items: right;
     margin: 10px;
+    margin: 0px 10px 10px 10px ;
     
 }
 #Joyland{
@@ -126,7 +133,7 @@ footer{
     text-align: center;
     box-shadow: 3px 3px 5px 5px rgba(109, 109, 109, 0.2);
 }
-@media  only screen and (max-width: 1100px) {
+@media  only screen and (max-width: 1200px) {
 
 .wrapper{
         display: grid; 
