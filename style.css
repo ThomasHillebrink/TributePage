@@ -78,6 +78,11 @@ margin: 10px
 #Carrie{
     grid-area: Carrie;
     object-fit: cover;
+    height: 300px;
+}
+.c-img{
+    max-width: 100%;
+    max-height: 100%;
 }
 #Gunslinger{
     grid-area: Gunslinger;
