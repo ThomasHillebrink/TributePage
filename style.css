@@ -38,10 +38,14 @@ margin-top: 100px;
 font-size: 80px;
 border-bottom: 1px solid #bbb;
 text-align: center;
+padding: 0px;
+margin-bottom: 0px; 
 }
 
 header > h2 {
     text-align: center;
+    padding: 0px;
+    margin-top: 20px;
 }
 /* Main text box*/
 .content{
@@ -92,12 +96,12 @@ margin: 10px
 }
 #Carrie{
     grid-area: Carrie;
-    object-fit: cover;
-    height: 350px;
+    margin: 10px;
 }
 .c-img{
     max-width: 100%;
-    max-height: 100%;
+    max-height: 350px;
+
 }
 #Gunslinger{
     grid-area: Gunslinger;
@@ -117,6 +121,7 @@ margin: 10px
 /* footer */
 footer{
     background-color: #ECECEC;
+    font-family: 'Amiri', serif;
     grid-area: footer;
     text-align: center;
     box-shadow: 3px 3px 5px 5px rgba(109, 109, 109, 0.2);
