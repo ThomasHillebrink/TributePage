@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amiri|Merriweather&display=swap');
 
 *{
     box-sizing: border-box;
@@ -18,7 +18,7 @@
     
 
 .header{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
     grid-area: header;
      background-color: #ECECEC;
     margin: 10px;
@@ -46,6 +46,7 @@ header > h2 {
 /* Main text box*/
 .content{
     grid-area: main;
+    font-family: 'Amiri', serif;
     background-color: #FBF5F5;
     display: grid;
     box-shadow: 3px 3px 5px 5px rgba(109, 109, 109, 0.2);
@@ -62,7 +63,10 @@ header > h2 {
 }
 .timelineTitle{
     grid-area: title;
-    margin: 10px
+    font-size: 2em;
+    margin: 10px;
+    border-bottom: 1px solid #bbb;
+    
 }
 body > div {
     margin: 0 auto;
@@ -89,7 +93,7 @@ margin: 10px
 #Carrie{
     grid-area: Carrie;
     object-fit: cover;
-    height: 300px;
+    height: 350px;
 }
 .c-img{
     max-width: 100%;
@@ -115,6 +119,7 @@ footer{
     background-color: #ECECEC;
     grid-area: footer;
     text-align: center;
+    box-shadow: 3px 3px 5px 5px rgba(109, 109, 109, 0.2);
 }
 @media  only screen and (max-width: 1100px) {
 
