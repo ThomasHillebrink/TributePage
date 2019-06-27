@@ -3,10 +3,10 @@
 *{
     box-sizing: border-box;
 }
-
+/* grid declaration on page */
 .wrapper{
-   display: grid; 
-     grid-template-rows: 310px auto 50px;
+    display: grid; 
+    grid-template-rows: 310px auto 50px;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-areas: 
     "header header header"
@@ -14,13 +14,10 @@
     "footer footer footer";
 }
 /* Header box */
-
-    
-
 .header{
     font-family: 'Merriweather', serif;
     grid-area: header;
-     background-color: #ECECEC;
+    background-color: #ECECEC;
     margin: 10px;
     overflow:hidden;
     box-shadow: 3px 3px 2px 1px rgba(109, 109, 109, 0.2);
@@ -48,6 +45,7 @@ header > h2 {
     margin-top: 20px;
 }
 /* Main text box*/
+/* grid declaration on content */
 .content{
     grid-area: main;
     margin: 10px;
